@@ -183,7 +183,7 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: #cdccc8;
   color: #343a40;
 }
 
@@ -604,6 +604,8 @@ section {
 .clients .swiper-slide img {
   opacity: 1;
   transition: 0.3s;
+  max-width: 100%;
+  height: auto;
   
 }
 
