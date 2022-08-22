@@ -127,7 +127,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important;
   }
 }
 
@@ -424,7 +424,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/kards_hero.png") top center;
+  background: url("../img/kards_hero.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -556,7 +556,6 @@ section {
 }
 
 .section-title p {
-  margin: 0;
   margin: 0;
   font-size: 36px;
   font-weight: 700;
@@ -724,47 +723,6 @@ section {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-}
-
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 60px 0;
-}
-
-
-
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta p {
-  color: #fff;
-}
-
-.cta .cta-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.cta .cta-btn:hover {
-  background: #cdccc8;
-  border-color: #cdccc8;
-  color: #151515;
 }
 
 /*--------------------------------------------------------------
@@ -955,196 +913,6 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts .content {
-  padding: 30px 0;
-}
-
-.counts .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  color: #151515;
-}
-
-.counts .content p {
-  margin-bottom: 0;
-}
-
-.counts .content .count-box {
-  padding: 20px 0;
-  width: 100%;
-}
-
-.counts .content .count-box i {
-  display: block;
-  font-size: 36px;
-  color: #cdccc8;
-  float: left;
-}
-
-.counts .content .count-box span {
-  font-size: 36px;
-  line-height: 30px;
-  display: block;
-  font-weight: 700;
-  color: #151515;
-  margin-left: 50px;
-}
-
-.counts .content .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #3b3b3b;
-}
-
-.counts .content .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #3b3b3b;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.counts .content .count-box a:hover {
-  color: #626262;
-}
-
-.counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
-
-@media (max-width: 991px) {
-  .counts .image {
-    text-align: center;
-  }
-
-  .counts .image img {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 667px) {
-  .counts .image img {
-    max-width: 100%;
-  }
-}
-
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.testimonials::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.testimonials .section-header {
-  margin-bottom: 40px;
-}
-
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-  text-align: center;
-  color: #fff;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #fff;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #ddd;
-  margin: 0 0 15px 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-  color: #eee;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 0.5;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cdccc8;
-  opacity: 1;
-}
-
-@media (min-width: 1024px) {
-  .testimonials {
-    background-attachment: fixed;
-  }
-}
-
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 /*--------------------------------------------------------------
 # Team
@@ -1185,8 +953,6 @@ section {
   width: 36px;
   height: 36px;
   background: rgba(255, 255, 255, 0.8);
-  transition: ease-in-out 0.3s;
-  color: #484848;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1327,7 +1093,6 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
