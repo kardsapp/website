@@ -2,7 +2,27 @@
     "routes": [
         {
             "route": "/",
-            "rewrite": "/index.html"
+            "statusCode": 404
+        },
+        {
+            "route": "/android",
+            "redirect": "https://play.google.com/store/apps/details?id=games.kardsapp.cardgame",
+            "statusCode": 301
+        },
+        {
+            "route": "/facebook",
+            "redirect": "https://www.facebook.com/profile.php?id=100084552198326",
+            "statusCode": 301
+        },
+        {
+            "route": "/instagram",
+            "redirect": "https://www.instagram.com/kards.official/",
+            "statusCode": 301
+        },
+        {
+            "route": "/linkedin",
+            "redirect": "https://www.linkedin.com/company/kardsapp",
+            "statusCode": 301
         }
     ],
     "navigationFallback": {
